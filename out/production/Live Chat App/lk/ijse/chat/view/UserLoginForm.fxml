@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="440.0" prefWidth="669.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat.controller.UserLoginFormController">
+   <children>
+      <TextField fx:id="txtName" layoutX="50.0" layoutY="265.0" prefHeight="33.0" prefWidth="192.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button layoutX="102.0" layoutY="329.0" mnemonicParsing="false" onAction="#JoinOnAction" prefHeight="33.0" prefWidth="88.0" style="-fx-background-color: #218c74;" text="Join" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="440.0" fitWidth="427.0" layoutX="242.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assests/mainn.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="291.0" layoutX="30.0" layoutY="25.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assests/g2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="46.0" layoutY="101.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/getresponse-chats.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="EnterNametxt" layoutX="58.0" layoutY="271.0" prefHeight="21.0" prefWidth="173.0" />
+   </children>
+</AnchorPane>
